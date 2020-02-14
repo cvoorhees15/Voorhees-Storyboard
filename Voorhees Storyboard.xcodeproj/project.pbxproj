@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D72E57C323E1D029008A09D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E57C223E1D029008A09D5 /* AppDelegate.swift */; };
+		D72E57C523E1D029008A09D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E57C423E1D029008A09D5 /* SceneDelegate.swift */; };
+		D72E57C723E1D029008A09D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E57C623E1D029008A09D5 /* ViewController.swift */; };
+		D72E57CA23E1D029008A09D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72E57C823E1D029008A09D5 /* Main.storyboard */; };
+		D72E57CC23E1D02B008A09D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72E57CB23E1D02B008A09D5 /* Assets.xcassets */; };
+		D72E57CF23E1D02B008A09D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72E57CD23E1D02B008A09D5 /* LaunchScreen.storyboard */; };
+		D72E57DA23E1D02B008A09D5 /* Voorhees_StoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E57D923E1D02B008A09D5 /* Voorhees_StoryboardTests.swift */; };
+		D72E57E523E1D02C008A09D5 /* Voorhees_StoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E57E423E1D02C008A09D5 /* Voorhees_StoryboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D72E57D623E1D02B008A09D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72E57B723E1D029008A09D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72E57BE23E1D029008A09D5;
+			remoteInfo = "Voorhees Storyboard";
+		};
+		D72E57E123E1D02C008A09D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72E57B723E1D029008A09D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72E57BE23E1D029008A09D5;
+			remoteInfo = "Voorhees Storyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D72E57BF23E1D029008A09D5 /* Voorhees Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Voorhees Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E57C223E1D029008A09D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D72E57C423E1D029008A09D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D72E57C623E1D029008A09D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D72E57C923E1D029008A09D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D72E57CB23E1D02B008A09D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D72E57CE23E1D02B008A09D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D72E57D023E1D02B008A09D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72E57D523E1D02B008A09D5 /* Voorhees StoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voorhees StoryboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E57D923E1D02B008A09D5 /* Voorhees_StoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voorhees_StoryboardTests.swift; sourceTree = "<group>"; };
+		D72E57DB23E1D02B008A09D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72E57E023E1D02C008A09D5 /* Voorhees StoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Voorhees StoryboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E57E423E1D02C008A09D5 /* Voorhees_StoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voorhees_StoryboardUITests.swift; sourceTree = "<group>"; };
+		D72E57E623E1D02C008A09D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72E57BC23E1D029008A09D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E57D223E1D02B008A09D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E57DD23E1D02C008A09D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D72E57B623E1D029008A09D5 = {
+			isa = PBXGroup;
+			children = (
+				D72E57C123E1D029008A09D5 /* Voorhees Storyboard */,
+				D72E57D823E1D02B008A09D5 /* Voorhees StoryboardTests */,
+				D72E57E323E1D02C008A09D5 /* Voorhees StoryboardUITests */,
+				D72E57C023E1D029008A09D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D72E57C023E1D029008A09D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D72E57BF23E1D029008A09D5 /* Voorhees Storyboard.app */,
+				D72E57D523E1D02B008A09D5 /* Voorhees StoryboardTests.xctest */,
+				D72E57E023E1D02C008A09D5 /* Voorhees StoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D72E57C123E1D029008A09D5 /* Voorhees Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D72E57C223E1D029008A09D5 /* AppDelegate.swift */,
+				D72E57C423E1D029008A09D5 /* SceneDelegate.swift */,
+				D72E57C623E1D029008A09D5 /* ViewController.swift */,
+				D72E57C823E1D029008A09D5 /* Main.storyboard */,
+				D72E57CB23E1D02B008A09D5 /* Assets.xcassets */,
+				D72E57CD23E1D02B008A09D5 /* LaunchScreen.storyboard */,
+				D72E57D023E1D02B008A09D5 /* Info.plist */,
+			);
+			path = "Voorhees Storyboard";
+			sourceTree = "<group>";
+		};
+		D72E57D823E1D02B008A09D5 /* Voorhees StoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D72E57D923E1D02B008A09D5 /* Voorhees_StoryboardTests.swift */,
+				D72E57DB23E1D02B008A09D5 /* Info.plist */,
+			);
+			path = "Voorhees StoryboardTests";
+			sourceTree = "<group>";
+		};
+		D72E57E323E1D02C008A09D5 /* Voorhees StoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D72E57E423E1D02C008A09D5 /* Voorhees_StoryboardUITests.swift */,
+				D72E57E623E1D02C008A09D5 /* Info.plist */,
+			);
+			path = "Voorhees StoryboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D72E57BE23E1D029008A09D5 /* Voorhees Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E57E923E1D02C008A09D5 /* Build configuration list for PBXNativeTarget "Voorhees Storyboard" */;
+			buildPhases = (
+				D72E57BB23E1D029008A09D5 /* Sources */,
+				D72E57BC23E1D029008A09D5 /* Frameworks */,
+				D72E57BD23E1D029008A09D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Voorhees Storyboard";
+			productName = "Voorhees Storyboard";
+			productReference = D72E57BF23E1D029008A09D5 /* Voorhees Storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D72E57D423E1D02B008A09D5 /* Voorhees StoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E57EC23E1D02C008A09D5 /* Build configuration list for PBXNativeTarget "Voorhees StoryboardTests" */;
+			buildPhases = (
+				D72E57D123E1D02B008A09D5 /* Sources */,
+				D72E57D223E1D02B008A09D5 /* Frameworks */,
+				D72E57D323E1D02B008A09D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72E57D723E1D02B008A09D5 /* PBXTargetDependency */,
+			);
+			name = "Voorhees StoryboardTests";
+			productName = "Voorhees StoryboardTests";
+			productReference = D72E57D523E1D02B008A09D5 /* Voorhees StoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D72E57DF23E1D02C008A09D5 /* Voorhees StoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E57EF23E1D02C008A09D5 /* Build configuration list for PBXNativeTarget "Voorhees StoryboardUITests" */;
+			buildPhases = (
+				D72E57DC23E1D02C008A09D5 /* Sources */,
+				D72E57DD23E1D02C008A09D5 /* Frameworks */,
+				D72E57DE23E1D02C008A09D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72E57E223E1D02C008A09D5 /* PBXTargetDependency */,
+			);
+			name = "Voorhees StoryboardUITests";
+			productName = "Voorhees StoryboardUITests";
+			productReference = D72E57E023E1D02C008A09D5 /* Voorhees StoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D72E57B723E1D029008A09D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Caleb Voorhees";
+				TargetAttributes = {
+					D72E57BE23E1D029008A09D5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D72E57D423E1D02B008A09D5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D72E57BE23E1D029008A09D5;
+					};
+					D72E57DF23E1D02C008A09D5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D72E57BE23E1D029008A09D5;
+					};
+				};
+			};
+			buildConfigurationList = D72E57BA23E1D029008A09D5 /* Build configuration list for PBXProject "Voorhees Storyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D72E57B623E1D029008A09D5;
+			productRefGroup = D72E57C023E1D029008A09D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D72E57BE23E1D029008A09D5 /* Voorhees Storyboard */,
+				D72E57D423E1D02B008A09D5 /* Voorhees StoryboardTests */,
+				D72E57DF23E1D02C008A09D5 /* Voorhees StoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D72E57BD23E1D029008A09D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E57CF23E1D02B008A09D5 /* LaunchScreen.storyboard in Resources */,
+				D72E57CC23E1D02B008A09D5 /* Assets.xcassets in Resources */,
+				D72E57CA23E1D029008A09D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E57D323E1D02B008A09D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E57DE23E1D02C008A09D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D72E57BB23E1D029008A09D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E57C723E1D029008A09D5 /* ViewController.swift in Sources */,
+				D72E57C323E1D029008A09D5 /* AppDelegate.swift in Sources */,
+				D72E57C523E1D029008A09D5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E57D123E1D02B008A09D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E57DA23E1D02B008A09D5 /* Voorhees_StoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E57DC23E1D02C008A09D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E57E523E1D02C008A09D5 /* Voorhees_StoryboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D72E57D723E1D02B008A09D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72E57BE23E1D029008A09D5 /* Voorhees Storyboard */;
+			targetProxy = D72E57D623E1D02B008A09D5 /* PBXContainerItemProxy */;
+		};
+		D72E57E223E1D02C008A09D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72E57BE23E1D029008A09D5 /* Voorhees Storyboard */;
+			targetProxy = D72E57E123E1D02C008A09D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D72E57C823E1D029008A09D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72E57C923E1D029008A09D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D72E57CD23E1D02B008A09D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72E57CE23E1D02B008A09D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D72E57E723E1D02C008A09D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D72E57E823E1D02C008A09D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72E57EA23E1D02C008A09D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees Storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D72E57EB23E1D02C008A09D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees Storyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-Storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D72E57ED23E1D02C008A09D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees StoryboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-StoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voorhees Storyboard.app/Voorhees Storyboard";
+			};
+			name = Debug;
+		};
+		D72E57EE23E1D02C008A09D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees StoryboardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-StoryboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voorhees Storyboard.app/Voorhees Storyboard";
+			};
+			name = Release;
+		};
+		D72E57F023E1D02C008A09D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees StoryboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-StoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voorhees Storyboard";
+			};
+			name = Debug;
+		};
+		D72E57F123E1D02C008A09D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5T8Z4Y26FB;
+				INFOPLIST_FILE = "Voorhees StoryboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "calebvoorhees.com.Voorhees-StoryboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Voorhees Storyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D72E57BA23E1D029008A09D5 /* Build configuration list for PBXProject "Voorhees Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E57E723E1D02C008A09D5 /* Debug */,
+				D72E57E823E1D02C008A09D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72E57E923E1D02C008A09D5 /* Build configuration list for PBXNativeTarget "Voorhees Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E57EA23E1D02C008A09D5 /* Debug */,
+				D72E57EB23E1D02C008A09D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72E57EC23E1D02C008A09D5 /* Build configuration list for PBXNativeTarget "Voorhees StoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E57ED23E1D02C008A09D5 /* Debug */,
+				D72E57EE23E1D02C008A09D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72E57EF23E1D02C008A09D5 /* Build configuration list for PBXNativeTarget "Voorhees StoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E57F023E1D02C008A09D5 /* Debug */,
+				D72E57F123E1D02C008A09D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D72E57B723E1D029008A09D5 /* Project object */;
+}
