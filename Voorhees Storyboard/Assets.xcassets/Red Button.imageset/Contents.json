@@ -1,0 +1,35 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 211,
+          "height" : 183
+        },
+        "cap-insets" : {
+          "bottom" : 206,
+          "top" : 211,
+          "right" : 184,
+          "left" : 205
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "Red Button.jpg",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
